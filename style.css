@@ -1,0 +1,14 @@
+img {
+    margin-bottom: 0;
+    width: 500px;
+    height: auto;
+    transform: scale(1);
+    transition: all 3s;
+}
+img.load {
+    transform: scale(0.5);
+}
+.photo-list {
+    gap: 100px;
+    list-style: none;
+}
